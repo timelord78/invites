@@ -25,6 +25,8 @@
  - через запросы к API
 ### Документация к проекту будет доступна по адресу:
     http://127.0.0.1:8000/redoc/
+### Коллекция запросов Postman
+    https://www.getpostman.com/collections/5bc354be29e655d083e7
     
 
 
