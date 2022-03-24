@@ -1,7 +1,7 @@
 from pathlib import Path
 import os
 from dotenv import load_dotenv, find_dotenv
-import dj-database-url
+import dj_database_url
 
 
 load_dotenv(find_dotenv())
@@ -107,5 +107,5 @@ REST_FRAMEWORK = {
 }
 
 
-db_from_env = dj-database-url.config()
+db_from_env = dj_database_url.config()
 DATABASE['default'].update(db_from_env)
