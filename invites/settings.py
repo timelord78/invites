@@ -1,6 +1,8 @@
 from pathlib import Path
 import os
 from dotenv import load_dotenv, find_dotenv
+import dj-database-url
+
 
 load_dotenv(find_dotenv())
 
@@ -103,3 +105,7 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
     ]
 }
+
+
+db_from_env = dj-database-url.config()
+DATABASE['default'].update(db_from_env)
