@@ -105,7 +105,3 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
     ]
 }
-
-
-db_from_env = dj_database_url.config()
-DATABASE['default'].update(db_from_env)
