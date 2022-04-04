@@ -8,7 +8,7 @@
     git clone https://github.com/timelord78/invites.git invites
 ### Создание виртуальной среды и установка зависимостей
     python -m venv venv
-    pip install -r --requirements.txt
+    pip install -r requirements.txt
 ### Необходимо создать и заполнить файл .env (данные для БД Postgres)
     DB_NAME=postgres
     POSTGRES_USER=postgres
